@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alex R. Mehta — Computer Science Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Alex R. Mehta — Computer Science student portfolio. Projects, skills, resume and contact." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-name">alex-r-mehta</span>
+        <span class="brand-role">/cs-student</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span class="hamb"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / Home -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="mono headline">Alex R. Mehta <span class="muted">—</span> <span class="role">Computer Science Student</span></h1>
+          <p class="tagline">Building scalable systems, clean code, and elegant algorithms. <span class="location">Bengaluru, India</span></p>
+
+          <div class="terminal">
+            <div class="prompt">
+              <span class="prompt-user">~/projects &nbsp; $</span>
+              <span class="cmd"> echo "Hi, I'm Alex — I build useful tools & automate things."</span>
+              <span class="cursor" aria-hidden="true"></span>
+            </div>
+            <ul class="mini-lines">
+              <li>&gt; Grad Year: 2026</li>
+              <li>&gt; Degree: B.Tech in Computer Science</li>
+              <li>&gt; University: Placeholder Institute of Technology</li>
+            </ul>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-outline" href="#contact">Contact Me</a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-right profile-card" aria-label="Quick info">
+          <pre class="profile-pre">
+┌─ profile ─────────────────────────────
+│ name   : Alex R. Mehta
+│ role   : Computer Science Student
+│ location: Bengaluru, India
+│ email  : alex.mehta@example.com
+│ github : github.com/username
+└───────────────────────────────────────
+          </pre>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title mono">about</h2>
+        <div class="about-grid">
+          <p class="lead">
+            I'm a Computer Science student focused on systems, algorithms, and developer tooling.
+            I enjoy turning complex problems into simple, reliable software. I contribute to open-source,
+            solve algorithmic challenges, and learn systems design by building small production-like projects.
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Meaningful Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">1200+</div>
+              <div class="stat-label">Hours Coding</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">Contributor</div>
+              <div class="stat-label">Open-source</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 class="section-title mono">education</h2>
+
+        <div class="edu-card">
+          <div class="edu-left">
+            <div class="edu-degree">B.Tech — Computer Science</div>
+            <div class="edu-year">Class of 2026</div>
+          </div>
+          <div class="edu-right">
+            <div class="edu-school">Placeholder Institute of Technology</div>
+            <div class="edu-note">Relevant coursework: Data Structures, Algorithms, Operating Systems, Networking, Databases</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title mono">skills</h2>
+        <div class="skills-grid">
+
+          <div class="skill-col">
+            <h3 class="mono small-title">Languages</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>JavaScript (ES6+)</li>
+            </ul>
+          </div>
+
+          <div class="skill-col">
+            <h3 class="mono small-title">Tools & Platforms</h3>
+            <ul class="skill-list">
+              <li>Git & GitHub</li>
+              <li>Docker</li>
+              <li>Linux</li>
+              <li>VS Code</li>
+              <li>React (basic)</li>
+            </ul>
+          </div>
+
+          <div class="skill-col">
+            <h3 class="mono small-title">Core Concepts</h3>
+            <ul class="skill-list">
+              <li>Data Structures & Algorithms</li>
+              <li>Operating Systems</li>
+              <li>Networking</li>
+              <li>System Design Basics</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title mono">projects</h2>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <header class="project-header">
+              <h3 class="mono project-title">SmartNotes</h3>
+              <span class="project-tag">Personal</span>
+            </header>
+            <p class="project-desc">
+              An intelligent note-taking app with search, tagging and OCR support. Built backend APIs in Python and a minimal frontend to capture notes, sync locally and export to markdown.
+            </p>
+            <div class="project-meta">
+              <span>Python • Flask • SQLite</span>
+              <a class="project-link" href="https://github.com/username/smartnotes" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <header class="project-header">
+              <h3 class="mono project-title">NetMon</h3>
+              <span class="project-tag">Systems</span>
+            </header>
+            <p class="project-desc">
+              Lightweight network monitor & tracer that visualizes RTT and packet loss for local networks. Includes CLI tools to generate reports and a small dashboard for results.
+            </p>
+            <div class="project-meta">
+              <span>C • Linux • Shell</span>
+              <a class="project-link" href="https://github.com/username/netmon" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <header class="project-header">
+              <h3 class="mono project-title">PathFinder</h3>
+              <span class="project-tag">Algorithms</span>
+            </header>
+            <p class="project-desc">
+              Interactive visualizer for graph algorithms (Dijkstra, A*, BFS). Built for teaching — shows step-by-step state with animated transitions.
+            </p>
+            <div class="project-meta">
+              <span>JavaScript • HTML5 Canvas</span>
+              <a class="project-link" href="https://github.com/username/pathfinder" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests / Hobbies -->
+    <section id="interests" class="section interests">
+      <div class="container">
+        <h2 class="section-title mono">interests</h2>
+        <p>
+          Hobbies: Chess, open-source contributions, CTF & cybersecurity challenges. <br />
+          Soft skills: Problem solving, teamwork, clear communication.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title mono">Contact</h2>
+          <p class="lead">Interested in collaborating or want to see more? Reach out.</p>
+
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:alex.mehta@example.com">alex.mehta@example.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/username" target="_blank" rel="noopener">github.com/username</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/username" target="_blank" rel="noopener">linkedin.com/in/username</a></li>
+            <li><strong>Location:</strong> Bengaluru, India</li>
+          </ul>
+
+          <div class="social-row">
+            <a class="btn btn-ghost" href="https://github.com/username" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn-ghost" href="https://linkedin.com/in/username" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:alex.mehta@example.com" method="post" enctype="text/plain" aria-label="Contact form">
+          <label class="form-row">
+            <span class="label-text">Name</span>
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+
+          <label class="form-row">
+            <span class="label-text">Email</span>
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+
+          <label class="form-row">
+            <span class="label-text">Message</span>
+            <textarea name="message" rows="6" placeholder="Hi Alex — I'd like to collaborate on..." required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="reset" class="btn btn-outline">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span class="mono">© Alex R. Mehta — 2025</span>
+        </div>
+        <div class="footer-right">
+          <span class="muted">Made with minimal HTML & CSS • Dark terminal aesthetic</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Embedded JS for mobile nav + small accessibility helpers -->
+  <script>
+    (function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const nav = document.getElementById('primary-nav');
+
+      navToggle.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+        this.setAttribute('aria-expanded', !expanded);
+        nav.classList.toggle('open');
+      });
+
+      // Close nav on link click (mobile)
+      nav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          if (nav.classList.contains('open')) {
+            nav.classList.remove('open');
+            navToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+
+      // Keyboard: close nav with Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && nav.classList.contains('open')) {
+          nav.classList.remove('open');
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
